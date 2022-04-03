@@ -43,14 +43,14 @@ public class Main {
 
         // Задача 4
 
-        int deliveryDistance =66;
+        int deliveryDistance = 28;
         int deliveryDays = 1;
         if (deliveryDistance <= 20) {
             System.out.println("Потребуется дней: " + deliveryDays);
         } else if (deliveryDistance > 20 && deliveryDistance <= 60) {
-            System.out.println("Потребуется дней: " + deliveryDays + 1);
+            System.out.println("Потребуется дней: " + (deliveryDays + 1));
         } else if (deliveryDistance > 60 && deliveryDistance <= 100) {
-                System.out.println("Потребуется дней:" + deliveryDays + 2);
+                System.out.println("Потребуется дней:" + (deliveryDays + 2));
             } else {
                     System.out.println("Мы не сможем доставить Вам карту");
             }
